@@ -31,9 +31,9 @@ const Contact = () => {
         "template_1t76uxq",
         {
           form_name: form.name,
-          to_name: "Liron",
+          to_name: "Victor Chege",
           from_email: form.email,
-          to_email: "contact@mail.com",
+          to_email: "chegev704@gmail.com",
           message: form.message,
         },
         "Jqq9AvwIuSjoMiA5c"
@@ -41,7 +41,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you. Victor Chege will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -68,6 +68,12 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        
+        <div className="mt-4 text-secondary text-[17px]">
+          <p className="mb-2">Phone: +254 791 271 674</p>
+          <p className="mb-2">Email: chegev704@gmail.com</p>
+          <p className="mb-4">LinkedIn: <a href="http://www.linkedin.com/in/victorchege" target="_blank" rel="noopener noreferrer" className="text-[#915EFF]">www.linkedin.com/in/victorchege</a></p>
+        </div>
 
         <form
           ref={formRef}

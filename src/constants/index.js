@@ -35,6 +35,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "resume",
+    title: "Resume",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -42,62 +46,62 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Python Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Django Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Analyst",
+    icon: mobile,
+  },
+  {
+    title: "API Developer",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "Python",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "Django",
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: "Flask",
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "PostgreSQL",
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "REST APIs",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Scikit-learn",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: "Pandas",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "Power BI",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: "NLTK",
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "HTML/CSS",
     icon: threejs,
   },
   {
@@ -105,7 +109,7 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "Heroku",
     icon: figma,
   },
   {
@@ -116,55 +120,58 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Development Attaché",
+    company_name: "KRA (Kenya Revenue Authority)",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Integrated analytics into HR reporting tools, enhancing data mapping and visualization capabilities.",
+      "Enabled evidence-based decision-making, improving reporting efficiency by 30% and stakeholder insight accessibility.",
+      "Debugged and optimized dynamic logic in the HR survey chatbot, improving conditional flows based on user inputs.",
+      "Increased response accuracy by 25% and reduced logic errors by 40%, leading to more reliable HR data collection.",
+      "Designed and launched a public-access survey feature, removing login barriers for external stakeholders.",
+      "Executed system performance testing under varied load conditions, achieving a 40% improvement in response time."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Founder & Python Developer",
+    company_name: "Floating Arrow",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "January 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Founded and lead a freelance development studio focused on backend systems, APIs, and automation tools using Python.",
+      "Built and maintained 6+ web applications using Django and Flask for local businesses and student projects.",
+      "Developed RESTful APIs, integrated third-party services, and designed PostgreSQL schemas for scalable performance.",
+      "Improved legacy system efficiency by 30% through backend optimization and code refactoring.",
+      "Delivered fully deployed client systems, including hosting, deployment automation, and user documentation."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Data Science Projects",
+    company_name: "Arthur dynamics",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2024 - April 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Churn Prediction Model (Python, Scikit-learn): Built a logistic regression model with 82% accuracy using customer transactional data to predict churn.",
+      "Interactive Sales Dashboard (Power BI): Developed a dashboard for a retail dataset integrating filters for regions, product categories, and sales reps.",
+      "Sentiment Analysis Tool (Python, NLTK): Created a tool to extract customer sentiment from reviews. Integrated into a feedback analytics platform."
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Founder & Lead Django Developer",
+    company_name: "Avey Unlimited",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "January 2024 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Operated a solo development studio delivering Django-based applications to early-stage businesses.",
+      "Designed and deployed 3 full-stack web apps with Django and PostgreSQL, supporting dashboards and admin panels.",
+      "Created and tested backend APIs; collaborated with clients on functional specifications and feature design.",
+      "Achieved 99.9% uptime post-deployment with Heroku-based continuous deployment setup.",
+      "Provided ongoing support, bug fixes, and feature updates to clients for a period of 2–3 months post-launch."
     ],
   },
 ];
@@ -172,46 +179,37 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Victor's Python expertise and attention to detail helped us implement a data analysis system that transformed our decision-making process.",
+    designation: "Project Manager"
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "The Django application Victor built for our startup exceeded our expectations. His technical skills and business understanding are exceptional.",
+    designation: "Founder"
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Victor's sentiment analysis tool helped us understand customer feedback at scale, leading to significant improvements in our service delivery.",
+    designation: "Customer Experience Lead"
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Churn Prediction Model",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Machine learning model with 82% accuracy that predicts customer churn using transactional data. Implemented feature engineering and class balancing techniques to improve model performance.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "scikit-learn",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "pandas",
         color: "pink-text-gradient",
       },
     ],
@@ -219,20 +217,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "HR Analytics Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Interactive dashboard for HR data visualization that improved reporting efficiency by 30%. Includes filters for departments, performance metrics, and employee engagement scores.",
     tags: [
       {
-        name: "react",
+        name: "power bi",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "data analysis",
         color: "pink-text-gradient",
       },
     ],
@@ -240,20 +238,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Sentiment Analysis Tool",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "NLP-based tool that extracts customer sentiment from reviews and feedback. Integrated into a feedback analytics platform to provide actionable insights for business improvement.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nltk",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "django",
         color: "pink-text-gradient",
       },
     ],

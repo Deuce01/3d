@@ -47,14 +47,26 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a driven software developer with over two years of hands-on experience in Python programming, 
+        web application development, and data analysis. Currently pursuing a Bachelor of Science in Software 
+        Development at KCA University (September 2021 - December 2025), I combine academic knowledge with practical experience to build real-world solutions.
+        My technical foundation includes Python, Django, Flask, REST APIs, PostgreSQL, and data tools like 
+        Scikit-learn, Pandas, and Power BI. I thrive in collaborative environments and am committed to 
+        continuous learning and delivering value through code.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <motion.div variants={fadeIn("", "", 0.2, 1)} className="mt-8 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        <h3 className="text-white text-[20px] font-bold mb-2">Certifications:</h3>
+        <ul className="list-disc pl-5">
+          <li>Introduction to Career Skills in Data Analytics</li>
+          <li>Introduction to Cybersecurity</li>
+          <li>Learning Data Analytics: 1 Foundations</li>
+          <li>Learning Data Analytics Part 2: Extending and Applying Core Knowledge</li>
+          <li>Career Essentials in Data Analysis by Microsoft and LinkedIn</li>
+        </ul>
+      </motion.div>
+
+      <div className="mt-12 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
